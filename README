@@ -1,0 +1,4 @@
+To create epub:
+
+zip -0Xq book.epub mimetype
+zip -Xr9Dq book.epub *

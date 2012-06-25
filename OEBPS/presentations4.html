@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+xmlns:epub="http://www.idpf.org/2007/ops"
+  xmlns:ev="http://www.w3.org/2001/xml-events"
+>
+  
+  <head>    <title>
+    Behaviour
+  </title>   
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/> 
+    
+
+ <!--    <epub:trigger ev:observer="toclick1" ev:event="click" action="show" ref="expand1"/> 
+ <epub:trigger ev:observer="playbut" ev:event="click" action="play" ref="video1"/>-->
+
+  <script src="jquery-1.6.2.min.js" type="text/javascript"></script>
+      <link rel="stylesheet" type="text/css" href="style.css" />  </head>
+  <body>
+
+
+       <!-- START BLOK -->
+        <p class='bioinfo'>
+        Jeroen van Erp
+       </p>
+Jeroen van Erp studeerde in 1988 af aan de faculteit Industrieel Ontwerpen van de TU Delft. Na zijn afstuderen startte hij als freelance ontwerper en deed in die tijd opdrachten voor onder andere ING Bank en de PTT. In 1992 was hij 1 van de medeoprichters van Fabrique om Delft dat zich positioneerde als multidisciplinair ontwerpbureau. In 1994 was hij de oprichter van de afdeling interactieve media. Deze nieuwe discipline richtte zich vooral op het ontwikkelen van websites voor het toen nog kersverse world wide web.  Mede onder zijn leiding is Fabrique in de loop van de jaren uitgegroeid tot een veelzijdig ontwerpbureau. Op dit moment werken er ruim 85 medewerkers voor een breed scala aan klanten; van Albert Heijn tot aan het Rijksmuseum, van Schiphol tot aan Artis.  Fabrique ontwikkelt visies, denkt mee over strategie, merk en innovatie en realiseert ontwerpen. En dat bij voorkeur dwars door de design disciplines heen waarbij de traditionele grenzen tussen grafisch ontwerpen, industrieel ontwerpen, ruimtelijk ontwerpen en interactieve media soms nauwelijks nog herkenbaar zijn. In de visie van het bureau de enige manier om in de toekomst ogenschijnlijk eenvoudige oplossingen te creëren voor complexe en relevante vraagstukken.
+
+    <video id="video1" controls='controls'  poster="images/voorweb.jpg">
+      <source src="videos/jeroenvanerp.m4v" type="video/mp4"/>
+      <div class="errmsg">
+        <p>Your Reading System does not support (this) video.</p>
+      </div>
+      </video>
+    <script type="text/javascript">
+      document.getElementById('video1').addEventListener('loadedmetadata', function() {
+        this.currentTime = 50;
+      }, false);
+
+      document.getElementById('video1').addEventListener("timeupdate", function() {
+        if (this.currentTime == 55) {
+          this.pause();
+        }}, false); 
+
+      function confirmation() {
+        //alert('fsaf');
+  var answer = confirm("Leave tizag.com?")
+  if (answer){
+    alert("Bye bye!")
+    window.location = "http://www.google.com/";
+  }
+  else{
+    alert("Thanks for sticking around!")
+  }
+}
+
+      // document.getElementById('video1').addEventListener("play", function() { // Do something 
+      // $('.fullquote').css('opacity',0.2)}, false); 
+
+       document.getElementById('video1').addEventListener("pause", function() { // Do something 
+       confirmation();
+     }, false); 
+
+    </script>
+               
+       <!--  <p class='buttons'>
+          <div class='play' id='playbut1'>play</div>
+          <div class='stop' id='stopbut1'>stop</div>
+          <div class='fullscreen' id='fullscreenbut1'>full</div>
+        </p> -->
+    
+
+<div class='fullquote'>
+     
+ <p>Hello, and thank you, Jasper, for inviting me to speak here at the <a href='http://wdka.hro.nl/'>Willem de Kooning Academie</a>
+   
+   Let me say a little about myself, I graduated from the Industrial Design and Engineering department of <a href='http://home.tudelft.nl'>TU Delft</a> in '88, and in '92 I went on to be one of the co-founders of <a href='http://www.fabrique.nl/'>Fabrique</a>. In '94 we were approached by a client who asked us to design a website, and since then we have had quite some involvement with design focused on interaction, possibly we are the agency with the longest history of designing interactive media here in the Netherlands, and we are quite proud of that fact. Currently I am a creative director at Fabrique, and an executive board member of <a href='http://www.crispplatform.nl/'>Crisp</a>, a research program for the creative industries. I'm also a co-founder and board member of the <a href='http://www.designandemotion.org/'>Design and Emotion Society</a>.</p>
+
+<p>A very short and quick outline of Fabrique, we have a staff of approximately one hundred, and as you may have read recently, we will be opening an office in Rotterdam in June. We are multi-disciplinary, and provide product, graphic, interactive, communications, retail and brand services, but more importantly we do the thinking and doing. I hope you all have had, or receive, some training in thinking, because what will make the difference in your design is the thinking as opposed to the doing. We, Fabrique, as designers, only do one thing, we create apparently simple solutions for complex problems, and our one goal is creating the difference[COMMENT reference to Fabrique's moto? perhaps include shot of screen at 00:02:04]. The client wants to be seen as outstanding, both in terms of their product, and in whatever context their product or image, or brand, is presented.</p>
+
+<p>Let me briefly mention just a few of the commissions we have undertaken. In '97 we designed the interior for all the public transport in Rotterdam, and it is this same interior you will be surrounded by should you use the trams or subway system. More recently we designed the advertising and posters for the Rotterdam Opera Days, a task which covered everything from the identity to the campaign.</p>  
+
+<p>So, to move on, I want to speak about my understanding of design, about design and behaviour, and conclude with, I hope, your agreement, and some idea of what factors might lead to a new role for the designer, or a role quite different from what we currently view as the task of design.</p>
+
+<p>Firstly, something which is perhaps very simple: the digital revolution has impregnated every area of society, if in 2040 we look back at this period it may be even more recognisable as a pivotal point in history. Like the industrial revolution, technology changes economics, social life, human behaviour, essentially everything, and I think designers play a very important role in this.</p>
+
+<p>Retail is finally discovering the power of digital solutions, within the transport system in Korea[COMMENT insert happy Korean shoppers at 00:03:30 here] for instance the walls of the subway entrance are a canvas with which you can use to scan your grocery's, and there is a pickup point where you can then collect them. For me anything to do with virtual, or augmented reality, is very interesting, especially in retail. For instance, fitting dresses[COMMENT insert happy Korean woman trying on a virtual dress], you can swipe the interface and see any number of dresses and pick out the one you like most. As a result of this the world has become transparent, knowledge has become transparent, which is a good thing. So, a lot of products are becoming commodities, and we as designers have to deal with that. I dare to say that every beer brewery sells a commodity, every peanut butter company sells a commodity, and its the story and the brand around it that makes you believe that one peanut butter is better than another, its a difficult game to play, company's, and commissioner's, want to spend a lot of money on design, campaigns, and improving products, to escape from this commoditisation.</p>
+
+<p>On the website of KLM and it says, "Book Your Flight", design wise its very plain, very simple. If you fly overseas with KLM, and you fly business class, you get, as an in-flight gift, a porcelain house, a replica of a typical old Dutch house, which contains Bols Gin. What is KLM's aim with this little house?  Its about pride, and this expresses a part of the KLM brand. You might also fly Virgin Atlantic, and what does their website say, "Hello gorgeous", which is a totally different attitude, a totally different tone of voice, but one that fits the Virgin brand. If you fly "Upper Class" with Virgin Atlantic, what do you get as an in-flight gift? You get nothing, which is a pity, but on your tray, with your food, are two little plastic salt and pepper shakers shaped as toys<a href='These items now sell for somewhere in the region of 20 UKP each on ebay.'>footnote</a>, and the funny thing is, if you look at them closely, written on the bottom, it says "Pinched from Virgin Atlantic", a little joke they play as part of their brand. This is totally different from KLM, they both sell the same product, but the story is completely different.</p>
+
+<p>Whenever something went wrong in some part of the design process I always felt a sense of shame, and I think as designers we should become much more responsible for what we do. I strongly believe in a knowledge and research driven approach, of experience driven design, of design that aims to change behaviour, one example I particularly love is cookie jars, a simple object that has some kind of "wow factor", something that people will remember. One particular cookie jar[COMMENT insert image of green semi-transparent cookie jar from 00:07:42] I like is semi-transparent, and shaped so that the last few cookies will have collected in the corners, you can see the the cookies end up in the corners and as its quite a large cookie jar, you have to reach in to get the last cookie, which is odd, but it provides the cookie jar with something that people talk about, and everybody remembers it for that reason. This cookie jar costs about 80 Euros and I think the production cost are not more than 2 Euros, so this is really designed from an experience and emotion point of view and not from the boundary conditions created by the need to store cookies.</p>
+
+<p>As designers we have to deal with a complete experience, and a very good example of a complete experience is <a href='http://www.nespresso.com'>Nespresso</a>. I call it a "coffee ecosystem" as its not about the coffee alone, its about the machines, the retail experience, the delivery service, the iPad app, etc ... its so complete as an experience that you really get hooked. As a designer, or a design company, we have to deal with marketers, which can be annoying, at least sometimes. For those of you who know the "Four P's", "Price, Product, Place, Promotion", you will know that the <a href='http://en.wikipedia.org/wiki/T-theory'>T-Theory</a> says that they all influence the Brand, but unfortunately what I have to deal with is mostly "Promotion", marketers will come to me, ask questions, and in the end we have to do a lot of promotion to meet short term goals, that is the reality, and its sometimes annoying as I think the real long term benefit is in coming up with great distinctive products, and beautiful brands. So, it is for this reason that I think "marketing 3.0" should have its focus on the the long-term life of the product and brand.</p>
+
+<p>As you see, design includes a lot: it is products, identities, information, spaces, retail, brands, services, fashion, textile, exhibitions, environments, websites, apps, augmented reality, architecture, urban planning, social design ... and more. I think, to surmise, its more about change. We are always involved with the processes of change, and so I really prefer to talk about it in terms of innovation. Roughly we can make the axial distinctions: bottom down innovation and top down innovation. Top down innovation is about shareholder value, market forces, brands, goals, and social design. Bottom up innovation is about technological forces, autonomous design, and art. We might add another axis, from simple to complex[COMMENT perhaps insert the diagram at 00:10:14 here], but I will skip that as the point I want to make is that I believe the future of innovation will be from the top down, and brand driven, where product and brand are entangled and have a synergy that has an economic leverage. It asks for a lot of creativity, and a lot of guts, to fight the complexity with always comes with these types of processes.</p>
+
+<p>So what conclusions can we make: the world is changing and innovation is key; a coherent user experience is the condition for success; and, I think, something  very important, we should not take the user as a starting point.</p>
+
+<p>If we imagine a cone with four levels, and we take it to represent an undertaking for a client, these four levels: the undertaker, the strategist, concept developer, and at the bottom, the designer, represent is a classic design commission: we have a strategy, come up with a concept, and make a design. What you see is at the top there is the thinking and at the bottom there is the doing, at the top its about creating business and at the bottom about creating designs, and further, at the top its about storytelling and the bottom products and service systems. The interesting thing is that as you move up your outreach is bigger, but whats more important, because such tasks have greater independence, as a strategist, you move around and are forced to get out of your comfort zone. This is where I think the role of the designer has to move toward, to a medium independent creative thinker, instead of a doer. The new role for the designer: a thinker, a strategist, a conceptualist, a business creator, a philosopher.</p>
+
+<p>Why the designer? Because of his or her creativity, from this perspective we are much more powerful than classical consultants, we can look at things from a more holistic point of view, we have the ability to challenge, the ability to connect the thinking and doing, we can act on all levels and make things fit, and we can bring together company concerns with user and consumer concerns, but only if the designer gets out of the comfort zone.
+  
+  Thank you very much.</p>
+</div>
+
+
+        
+      
+    
+    
+    <aside epub:type="footnote" id="n1">
+      <img id='miimg' src='images/DD_goud_klein.gif' />
+<p>These have been corrected in this EPUB3 edition.</p>
+</aside>
+
+    <!-- EIND BLOK -->
+    
+See all slides:
+<p class="slidescontainer">
+<img class="slides" src="./images/allslides/slidescrosslab/Slide01.jpg" rel="78" /><br />
+<span class="controls">
+<span class="prev slidecontr"> </span>
+<span class="slideinfo"> </span>
+<span class="next slidecontr"> </span>
+</span></p>
+
+    
+   
+    
+    <script src="script.js" type="text/javascript"></script>
+
+  </body>
+</html>

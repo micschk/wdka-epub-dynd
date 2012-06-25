@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<package xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" unique-identifier="bookid">
+<!-- 
+Time-stamp: <2012-06-24-11:17:25-liza>
+-->
+	<metadata>
+		<dc:identifier id="bookid">urn:uuid:4c191974-c491-4ad0-aa53-62ec5fed9feb</dc:identifier>
+		<dc:title>Epub demo - dinsdag7</dc:title> 
+		<dc:rights>Creative Commons Attribution-Noncommercial-Share Alike 3.0</dc:rights>
+		<dc:publisher>Threepress Consulting Inc.</dc:publisher>  
+		<dc:date >2010-06-22</dc:date>
+		<dc:description >EPUB book usidsang JavaScript to enhance textual presentation</dc:description>
+		<dc:creator xmlns:opf="http://www.idpf.org/2007/opf" opf:file-as="Klok, Timo">Timo Klok</dc:creator>
+		<dc:contributor xmlns:opf="http://www.idpf.org/2007/opf" opf:file-as="Klok, Timo">Timo Klok</dc:contributor>
+		<dc:language>en</dc:language>
+		<meta name="cover" content="cover-image" />
+	</metadata>  
+   
+	<manifest>
+		<item id="ncxtoc" media-type="application/x-dtbncx+xml" href="toc.ncx"/>
+    
+		<item id="content0" href="intro.html" media-type="application/xhtml+xml"/>
+		<item id="content0a" href="epubformat.html" media-type="application/xhtml+xml"/>
+		<item id="content1" href="thema1.html" media-type="application/xhtml+xml"/>
+		<item id="content2" href="thema2.html" media-type="application/xhtml+xml"/>
+		<item id="content3" href="thema3.html" media-type="application/xhtml+xml"/>
+		<item id="content4" href="thema4.html" media-type="application/xhtml+xml"/>
+		<item id="content5" href="thema5.html" media-type="application/xhtml+xml"/>
+		<item id="content6" href="presentations.html" media-type="application/xhtml+xml"/>
+		<item id="content6a" href="presentations2.html" media-type="application/xhtml+xml"/>
+		<item id="content6b" href="presentations3.html" media-type="application/xhtml+xml"/>
+		<item id="content6c" href="presentations4.html" media-type="application/xhtml+xml"/>
+		<item id="content7" href="colofon.html" media-type="application/xhtml+xml"/>
+
+		<item id="cover" href="cover.html" media-type="application/xhtml+xml"/>
+		<item id="css" href="style.css" media-type="text/css"/>
+		<item id="script" href="script.js" media-type="text/javascript"/>
+		<item id="jquery" href="jquery-1.6.2.min.js" media-type="text/plain"/>
+		<item id="font1" href="Avenir-Heavy.otf" media-type="application/vnd.ms-opentype"/>
+
+		<item id="icon1" href="images/play.svg" media-type="image/svg+xml" />
+		<item id="icon2" href="images/pause.svg" media-type="image/svg+xml" />
+		<item id="icon3" href="images/reload.svg" media-type="image/svg+xml" />
+
+		<item id="icon4" href="images/arrow_right.svg" media-type="image/svg+xml" />
+		<item id="icon5" href="images/arrow_left.svg" media-type="image/svg+xml" />
+
+		<item id="image3" href="images/DD_goud_klein.gif.jpg" media-type="image/gif" />
+		<item id="image1" href="images/turkey.jpg" media-type="image/jpeg" />
+		<item id="image2" href="images/honey.jpg" media-type="image/jpeg" />
+		<item id="cover-image" href="images/posterserie_dynamic.jpg" media-type="image/jpeg" />
+
+		<item id="full-image" href="images/background1.jpg" media-type="image/jpeg" />
+
+		<item id="videojeroen" href="videos/jeroenvanerp.mp4" media-type="video/mp4"/>
+		<item id="videoalper" href="videos/alpercugun.mp4" media-type="video/mp4"/>
+		<item id="videotom" href="videos/tomdebruyne.mp4" media-type="video/mp4"/>
+		<item id="videoirene" href="videos/irenevanpeer.mp4" media-type="video/mp4"/>
+
+	</manifest>
+
+	<spine toc="ncxtoc">
+		<itemref idref="content0" /> 
+		<itemref idref="content0a" /> 
+		<itemref idref="content1" />
+		<itemref idref="content2" />
+		<itemref idref="content3" />
+		<itemref idref="content4" />
+		<itemref idref="content5" />
+		<itemref idref="content6" />
+		<itemref idref="content6a" />
+		<itemref idref="content6b" />
+		<itemref idref="content6c" />
+		<itemref idref="content7" />   
+	</spine> 
+  
+	<guide>
+		<reference type="cover" title="Cover" href="cover.html"/>
+		<reference type="text" title="Intro" href="intro.html"/>
+		<reference type="text" title="Epub" href="epubformat.html"/> 
+		<reference type="text" title="Behaviour" href="thema1.html"/> 
+		<reference type="text" title="The Designer" href="thema2.html"/>
+		<reference type="text" title="Dynamic Data" href="thema3.html"/>
+		<reference type="text" title="Experience" href="thema4.html"/>
+		<reference type="text" title="Process" href="thema5.html"/>
+		<reference type="text" title="Presentations" href="presentations.html"/>
+		<reference type="text" title="Polofon" href="colofon.html"/>    
+	</guide>
+
+</package>
+    

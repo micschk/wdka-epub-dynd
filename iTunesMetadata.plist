@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>artistName</key>
+	<string>Crosslab WDKA</string>
+	<key>book-info</key>
+	<dict>
+		<key>cover-image-hash</key>
+		<string>EF3C1C4899AF08AAEC4D1955D727FF84</string>
+		<key>cover-image-path</key>
+		<string>OEBPS/images/posterserie_dynamic.jpg</string>
+		<key>mime-type</key>
+		<string>application/epub+zip</string>
+		<key>package-file-hash</key>
+		<string>179DFBAB4347CCB33233F6E8105F91A1</string>
+		<key>publisher-unique-id</key>
+		<string>urn:uuid:4c191974-c491-4ad0-aa53-62ec5fed9feb</string>
+		<key>unique-id</key>
+		<integer>8197721645332137502</integer>
+	</dict>
+	<key>itemName</key>
+	<string>Dynamic Design</string>
+	<key>playlistName</key>
+	<string>Dynamic Design</string>
+	<key>releaseDate</key>
+	<string>2010-06-22</string>
+	<key>sort-artist</key>
+	<string>Crosslab WDKA</string>
+	<key>sort-artist-status</key>
+	<integer>3</integer>
+</dict>
+</plist>
