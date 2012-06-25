@@ -1,3 +1,5 @@
-images/*
-video/*
+OEBPS/images/*
+OEBPS/videos/*
 Avenir*
+nbproject
+*.epub
