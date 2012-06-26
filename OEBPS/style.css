@@ -82,11 +82,12 @@ a:visited {
 
 a.nextsnip{-webkit-text-fill-color: rgb(170,161,99);display:block;background:url('images/arrow_right.svg');background-repeat: no-repeat;background-size: 7% 50%;padding-left:8%;}
 
-.inlineimg {width:50px !important;max-width:50px !important; float:right; margin:.5em!important;}
+.inlineimg {width:100px !important;height:100px !important;max-width:100px !important; float:right;margin:15px;}
+.inlineimg img{width:100%;height:100%;}
 
-.bioinfo{margin:0;text-align:center;page-break-before:always; color: rgb(170,161,99)!important;}
-.bottomline{font-weight:bold;background-color:rgb(170,161,99); padding:5px;margin-top:-10px;}
-.bottomline a, .bottomline a:visited{ -webkit-text-fill-color:black;}
+.bottomline{margin:0;text-align:center;page-break-before:always; color: rgb(170,161,99)!important;}
+.bioinfo{font-weight:bold;background-color:rgb(170,161,99); padding:5px;margin-top:-10px;}
+.bioinfo a, .bioinfo a:bioinfo{ -webkit-text-fill-color:black;}
 .fullquote{}
 .buttons{position:relative;width:60px;left:50%;margin-left:-25px;}
 .play{margin-right:10px;display: inline-block;width:20px;height:15px; background:url('images/play.svg');background-size: 100% 100%;}
@@ -108,9 +109,9 @@ img.slides { width: 100%; }
 #top p{font-family: 'Avenir', sans-serif !important;  
     text-align: center;position:absolute;display: block;top:200px;overflow:visible;font-size: 3em;width:100%;}
 
-@media  screen and (orientation: portrait) {
-  .fullquote p {margin-left:18%;}
-  .inlineimg{float:left!important; width:12% !important;max-width:12% !important;}
+
+@media screen and (orientation:portrait) { 
+
+  .fullquote p {margin-left:15%;}
+  .inlineimg{width:14% !important;max-width:14% !important; margin-left:1%; float:left;}
 }
-
-
