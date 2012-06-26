@@ -74,13 +74,5 @@ $('.play').click(function() {
 	}
 })
 
-$(".innerlink").click(function(event){
-
-    event.preventDefault();
-    window.location('http://google.nl');
-    // Ajax here
-
-    return false; //for good measure
-});
 
 });
