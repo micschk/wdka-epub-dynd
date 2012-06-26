@@ -88,6 +88,11 @@ a.nextsnip{-webkit-text-fill-color: rgb(170,161,99);display:block;background:url
 .bottomline{margin:0; color: rgb(170,161,99)!important;}
 .bioinfo{font-weight:bold;background-color:rgb(170,161,99); padding:5px;margin-top:-10px;}
 .bioinfo a, .bioinfo a:visited{ -webkit-text-fill-color:white;}
+
+.fullbio{background-color:rgb(170,161,99); padding:5px;}
+.fullbio a, .bioinfo a:visited{ -webkit-text-fill-color:white;}
+.fullname{display:block;width:100%;-webkit-text-fill-color:white;color:white;}
+
 .fullquote{}
 .buttons{position:relative;width:60px;left:50%;margin-left:-25px;}
 .play{margin-right:10px;display: inline-block;width:20px;height:15px; background:url('images/play.svg');background-size: 100% 100%;}
@@ -105,23 +110,38 @@ img.slides { width: 100%; }
 .centerimg{width:15% !important;margin-left:42%;}
 
 #top{
-  display:block;
-  background-color:red;
   max-height:100% !important;
   height:100% !important;
   margin:0;
   padding:0;
 
 }
-
-.title{font-family: 'Avenir', sans-serif !important;  
-    display: block;padding-top:200px;font-size: 3em;
-    text-align :center;
-    font-weight:bold;height:0;overflow-y:visible;}
-.short{text-align :center;font-size:0.5em;}
+.title img{  
+  max-height:100% !important;
+  height:100% !important;}
+.title{
+  
+  position:absolute;
+  font-family: 'Avenir', sans-serif !important;  
+  font-size: 3em;
+  text-align :center;
+  font-weight:bold;
+  top:25%;
+  width:400px;
+  max-width: 400px !important;}
+.short{text-align :center;
+  font-size:0.5em;
+  width:400px;
+  max-width: 400px !important;}
 
 @media screen and (orientation:portrait) { 
 
   .fullquote p {margin-left:20%;}
   .inlineimg{width:14% !important;max-width:14% !important; margin-left:1%; float:left;}
+    .title{  width:600px;
+  max-width: 580px !important;}
+  .short{
+  width:600px;
+  max-width: 580px !important;}
+  }
 }
