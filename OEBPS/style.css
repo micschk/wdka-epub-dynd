@@ -105,20 +105,28 @@ img.slides { width: 100%; }
 .centerimg{width:15% !important;margin-left:42%;}
 
 #top{
-  display:block;
-  background-color:red;
   max-height:100% !important;
   height:100% !important;
   margin:0;
   padding:0;
 
 }
-
-.title{font-family: 'Avenir', sans-serif !important;  
-    display: block;padding-top:200px;font-size: 3em;
-    text-align :center;
-    font-weight:bold;height:0;overflow-y:visible;}
-.short{text-align :center;font-size:0.5em;}
+.title img{  
+  max-height:100% !important;
+  height:100% !important;}
+.title{
+  position:absolute;
+  font-family: 'Avenir', sans-serif !important;  
+  font-size: 3em;
+  text-align :center;
+  font-weight:bold;
+  top:25%;
+  max-width: 400px !important;}
+.short{text-align :center;
+  font-size:0.5em;
+  width:100% !important; 
+  max-width:100% !important;
+}
 
 @media screen and (orientation:portrait) { 
 
