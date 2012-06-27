@@ -52,8 +52,13 @@ Time-stamp: <2012-06-24-11:17:25-liza>
 
 		<item id="full-image" href="images/background1.jpg" media-type="image/jpeg" />
 
+<<<<<<< HEAD
 		<item id="videojeroen" href="http://192.168.3.100/WDKA//jeroenvanerp.mp4" media-type="video/mp4" properties="remote-resources" />
 		<item id="videoalper" href="videos/alpercugun.mp4" media-type="video/mp4"/>
+=======
+		<item id="videojeroen" href="videos/jeroenvanerp.mp4" media-type="video/mp4"/>
+		<item id="videoalper" href="videos/alpercugun .mp4" media-type="video/mp4"/>
+>>>>>>> df7c7ab70878aff4221307aaa8c2997d86a7ea6c
 		<item id="videotom" href="videos/tomdebruyne.mp4" media-type="video/mp4"/>
 		<item id="videoirene" href="videos/irenevanpeer.mp4" media-type="video/mp4"/>
 

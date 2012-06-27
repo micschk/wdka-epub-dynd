@@ -45,16 +45,7 @@ h2{font-family: 'Avenir', sans-serif !important;
     transition: opacity 1s ease-in-out;
 }
 
-aside[epub|type~='sidebar'] {
-   padding: 0.5em;
-   margin-left: 2em;
-   width: 25%;
-   max-width: 15em;
-   background-color: rgb(240,240,240);
-   border: solid 1px; rgb(0,0,0);
-   float: right;
-   font-size:0.6em;
-}
+
 
 
 
