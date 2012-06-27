@@ -57,7 +57,7 @@ Time-stamp: <2012-06-24-11:17:25-liza>
 		<item id="videoalper" href="./videos/2.mp4" media-type="video/mp4"/>
 		<item id="videotom" href="./videos/tomdebruyne.m4v" media-type="video/mp4"/>
 		<item id="videoirene" href="./videos/irenevanpeer.m4v" media-type="video/mp4"/>
-
+<item id="videojasper" href="./videos/introjasperschelling.m4v" media-type="video/mp4"/>
 	</manifest>
 
 	<spine toc="ncxtoc">

@@ -97,7 +97,8 @@ a.nextsnip{-webkit-text-fill-color: rgb(170,161,99);display:block;background:url
 box-shadow: 0 0 5px #888;}
 
 .breadcrumbs{page-break-before:always;}
-.breadcrumbs a, .breadcrumbs a:visited {display:block;font-weight:bold;padding:2px;}
+.breadcrumbs span{font-weight:bold;padding:2px;background-color:black;color:white;-webkit-text-fill-color:rgb(255,255,255);}
+
 .bottomline{margin:0; color: rgb(170,161,99)!important;-webkit-text-fill-color:rgb(170,161,99);}
 .bioinfo{font-weight:bold;background-color:rgb(170,161,99); padding:5px;margin-top:-10px;}
 .bioinfo a, .bioinfo a:visited{ -webkit-text-fill-color:white;}
@@ -105,9 +106,9 @@ box-shadow: 0 0 5px #888;}
 .fullbio{background-color:rgb(170,161,99); padding:5px;}
 .fullbio a, .bioinfo a:visited{ -webkit-text-fill-color:white;}
 .fullname{display:block;width:100%;-webkit-text-fill-color:white;color:white;}
-.dur{float:right;display:block;before:}
+.dur{float:right;display:block;}
 .dur:before{content:"Dur: ";}
-.fullquote p:first-letter{float:left;font-size:2.2em;margin-top:-0.25em;margin-right:.25em;}
+.fullquote p:first-letter{float:left;font-weight:bold;font-size:2.2em;margin-top:-0.225em;margin-right:.15em;}
 .buttons{position:relative;width:60px;left:50%;margin-left:-25px;}
 .play{margin-right:10px;display: inline-block;width:20px;height:15px; background:url('images/play.svg');background-size: 100% 100%;}
 .reload{display: inline-block;width:20px;height:15px; background:url('images/reload.svg');background-size: 100% 100%;}
@@ -124,6 +125,7 @@ img.slides { width: 100%; }
 .inactive{opacity:0.5;}
 .centerimg{width:15% !important;margin-left:42%;}
 .slidebox{display:inline-block;font-size:0.8em;}
+
 #top{
   max-height:100% !important;
   height:100% !important;
