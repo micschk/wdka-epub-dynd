@@ -36,15 +36,18 @@ $(".slidecontr").click(function(event){
 $('video').each(function(a){
 
 	var vid = $(this)[0];
-	vid.addEventListener('loadedmetadata', function() {
-		vid.currentTime = $(this).parent().attr('rel');
-	}, false);
+	// vid.addEventListener('loadstart', function() {
+	// 	vid.currentTime = $(this).parent().attr('rel');
+	// }, false);
 
 	vid.addEventListener("timeupdate", function() {
 		if (vid.currentTime >= $(this).parent().attr('alt')) {
 			vid.currentTime = $(this).parent().attr('rel');
 			$('.play').css('background-image','url(images/play.svg)'); 
 			vid.pause();
+		}
+		if (vid.currentTime < $(this).parent().attr('rel')) {
+			vid.currentTime = $(this).parent().attr('rel');
 		}
 	}, false); 
       
@@ -62,6 +65,8 @@ $('.reload').click(function() {
 $('.play').click(function() {
 	vidcont = $(this).parent().parent();
 	vid = $('video', vidcont)[0];
+
+
 	if(video1Play == false){
 		vid.play();
 		video1Play=true;  
