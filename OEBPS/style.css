@@ -20,6 +20,7 @@ body {
 
 p, div, span {
 	padding-bottom:10px;
+
 }
 
 
@@ -87,7 +88,10 @@ a:visited {
 }
 
 a.nextsnip{-webkit-text-fill-color: rgb(170,161,99);display:block;background:url('images/arrow_right.svg');background-repeat: no-repeat;background-size: 20px 20px;padding-left:10%;height:50px;}
-
+a.watch{-webkit-text-fill-color: rgb(170,161,99);display:block;background:url('images/arrow_down.svg');background-repeat: no-repeat;background-size: 20px 20px;padding-left:10%;height:50px; border-bottom: 1px solid black;}
+/*
+a.watch{text-align:left !important;font-size:.8em;color:#222;-webkit-text-fill-color:#222;}
+a.watch{display:block;margin-top: -10px;font-size:.8em;}*/
 .inlineimg {width:125px !important;max-width:125px !important; float:right; clear:right; margin:20px;margin-right:0px;
   
 }
@@ -105,7 +109,7 @@ box-shadow: 0 0 5px #888;}
 
 .fullbio{background-color:rgb(170,161,99); padding:5px;}
 .fullbio a, .bioinfo a:visited{ -webkit-text-fill-color:white;}
-.fullname{display:block;width:100%;-webkit-text-fill-color:white;color:white;}
+.fullname{display:block;width:100%;-webkit-text-fill-color:white;color:white;background:url('images/user.svg');background-repeat: no-repeat;background-size: 20px 25px;padding-left:30px;height:20px;}
 .dur{float:right;display:block;}
 .dur:before{content:"Dur: ";}
 .fullquote p:first-letter{float:left;font-weight:bold;font-size:2.2em;margin-top:-0.225em;margin-right:.15em;}
@@ -114,14 +118,14 @@ box-shadow: 0 0 5px #888;}
 .reload{display: inline-block;width:20px;height:15px; background:url('images/reload.svg');background-size: 100% 100%;}
 .videocont{display: block;}
 p{orphans:4;widows:4;text-align:left !important;font-size:.8em;color:#222;-webkit-text-fill-color:#222;}
-a.watch{text-align:left !important;font-size:.8em;color:#222;-webkit-text-fill-color:#222;}
-a.watch{display:block;margin-top: -10px;font-size:.8em;}
-.slidescontainer{width: 100%;}
+/*a.watch{text-align:left !important;font-size:.8em;color:#222;-webkit-text-fill-color:#222;}
+a.watch{display:block;margin-top: -10px;font-size:.8em;}*/
+.slidescontainer{width: 100%;margin-top:-2px;}
 img.slides { width: 100%; }
 .controls{ padding:5px;display:block;position:relative;width:100px;height:40px;margin-left:-50px;left:50%;}
 .prev{display:inline-block;width:30px;height:25px; background:url('images/arrow_left.svg');background-size: 100% 100%;}
 .next{display:inline-block;width:30px;height:25px; background:url('images/arrow_right.svg');background-size: 100% 100%;}
-.slideinfo{width:25px;display:inline-block;vertical-align:top;padding-top:8px;}
+.slideinfo{width:25px;display:inline-block;vertical-align:top;text-align:center;padding-top:8px;}
 .inactive{opacity:0.5;}
 .centerimg{width:15% !important;margin-left:42%;}
 .slidebox{display:inline-block;font-size:0.8em;}
@@ -157,6 +161,7 @@ aside[epub|type~='footnote'] {font-size:0.6em;}
 
 
 .closegif {background:url('images/DD_goud_klein2.gif');height:100px!important;max-height:100px!important;width:100px!important;max-width:100px!important;margin:auto;
+page-break-inside: avoid;
 }
 
 
