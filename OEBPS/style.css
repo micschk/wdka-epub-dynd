@@ -94,7 +94,8 @@ a.nextsnip{-webkit-text-fill-color: rgb(170,161,99);display:block;background:url
 .fullbio{background-color:rgb(170,161,99); padding:5px;}
 .fullbio a, .bioinfo a:visited{ -webkit-text-fill-color:white;}
 .fullname{display:block;width:100%;-webkit-text-fill-color:white;color:white;}
-
+.dur{float:right;display:block;before:}
+.dur:before{content:"Dur: ";}
 .fullquote{}
 .buttons{position:relative;width:60px;left:50%;margin-left:-25px;}
 .play{margin-right:10px;display: inline-block;width:20px;height:15px; background:url('images/play.svg');background-size: 100% 100%;}
@@ -105,10 +106,10 @@ a.watch{text-align:left !important;font-size:.8em;color:#222;-webkit-text-fill-c
 a.watch{display:block;margin-top: -10px;font-size:.6em;}
 .slidescontainer{width: 100%;}
 img.slides { width: 100%; }
-.controls{display:block;position:relative;width:100px;height:80px;left:50%;margin-left:-50px;}
+.controls{ padding:5px;display:block;position:relative;width:100px;height:40px;margin-left:-50px;left:50%;}
 .prev{display:inline-block;width:30px;height:25px; background:url('images/arrow_left.svg');background-size: 100% 100%;}
 .next{display:inline-block;width:30px;height:25px; background:url('images/arrow_right.svg');background-size: 100% 100%;}
-.slideinfo{width:20px;}
+.slideinfo{width:25px;display:inline-block;vertical-align:top;padding-top:8px;}
 .inactive{opacity:0.5;}
 .centerimg{width:15% !important;margin-left:42%;}
 
@@ -126,14 +127,17 @@ img.slides { width: 100%; }
   
   position:absolute;
   font-family: 'Avenir', sans-serif !important;  
-  font-size: 3em;
-  text-align :center;
+  font-size: 2em;
   font-weight:bold;
-  top:25%;
-  width:3800px;
-  max-width: 3800px !important;}
-.short{text-align :center;
-  font-size:0.5em;
+  top:0;
+  padding:5px;
+  width:380px;
+  max-width: 380px !important;}
+.short{
+  padding:5px;
+  font-weight:normal;
+  background-color:rgba(255,255,255,0.5);
+  font-size:0.3em;
   width:400px;
   max-width: 400px !important;}
 
@@ -141,10 +145,10 @@ img.slides { width: 100%; }
 
   .fullquote p {margin-left:20%;}
   .inlineimg{width:14% !important;max-width:14% !important; margin-left:1%; float:left;}
-    .title{  width:500px;
+  /*  .title{  width:500px;
   max-width: 500px !important;}
   .short{
   width:500px;
-  max-width: 500px !important;}
+  max-width: 500px !important;}*/
   }
 }
