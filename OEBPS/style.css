@@ -15,11 +15,13 @@ body {
     text-align: left !important;
 
 }
+.breakp{page-break-before:always;}
 #expand1{display: none;}
 
 p, div, span {
 	padding-bottom:10px;
 }
+
 
 a{text-decoration:underline;}
 samp{ font-family:  sans-serif !important;  color:red;}
@@ -30,8 +32,9 @@ h1 {
     font-size: 1.5em;
 
 }
-.closegif{width:100%;height:60px;}
-.closegif img{width:60px;position:absolute;left:50%;margin-left:-30px;}
+
+
+
 h2{font-family: 'Avenir', sans-serif !important;  
     color: rgb(170,161,99);
     font-size: 1.5em;
@@ -85,7 +88,7 @@ a:visited {
 
 a.nextsnip{-webkit-text-fill-color: rgb(170,161,99);display:block;background:url('images/arrow_right.svg');background-repeat: no-repeat;background-size: 20px 20px;padding-left:10%;height:50px;}
 
-.inlineimg {width:125px !important;max-width:125px !important; float:right; margin:20px;margin-right:0px;
+.inlineimg {width:125px !important;max-width:125px !important; float:right; clear:right; margin:20px;margin-right:0px;
   
 }
 .inlineimg img{width:100%;height:100%;border:1px solid #222;
@@ -104,12 +107,12 @@ box-shadow: 0 0 5px #888;}
 .fullname{display:block;width:100%;-webkit-text-fill-color:white;color:white;}
 .dur{float:right;display:block;before:}
 .dur:before{content:"Dur: ";}
-.fullquote{}
+.fullquote p:first-letter{float:left;font-size:2.2em;margin-top:-0.25em;margin-right:.25em;}
 .buttons{position:relative;width:60px;left:50%;margin-left:-25px;}
 .play{margin-right:10px;display: inline-block;width:20px;height:15px; background:url('images/play.svg');background-size: 100% 100%;}
 .reload{display: inline-block;width:20px;height:15px; background:url('images/reload.svg');background-size: 100% 100%;}
 .videocont{display: block;}
-p{text-align:left !important;font-size:.8em;color:#222;-webkit-text-fill-color:#222;}
+p{orphans:4;widows:4;text-align:left !important;font-size:.8em;color:#222;-webkit-text-fill-color:#222;}
 a.watch{text-align:left !important;font-size:.8em;color:#222;-webkit-text-fill-color:#222;}
 a.watch{display:block;margin-top: -10px;font-size:.8em;}
 .slidescontainer{width: 100%;}
@@ -120,7 +123,7 @@ img.slides { width: 100%; }
 .slideinfo{width:25px;display:inline-block;vertical-align:top;padding-top:8px;}
 .inactive{opacity:0.5;}
 .centerimg{width:15% !important;margin-left:42%;}
-
+.slidebox{display:inline-block;font-size:0.8em;}
 #top{
   max-height:100% !important;
   height:100% !important;
@@ -149,14 +152,15 @@ img.slides { width: 100%; }
   width:400px;
   max-width: 400px !important;}
 aside[epub|type~='footnote'] {font-size:0.6em;}
+
+
+.closegif {background:url('images/DD_goud_klein2.gif');height:100px!important;max-height:100px!important;width:100px!important;max-width:100px!important;margin:auto;
+}
+
+
 @media screen and (orientation:portrait) { 
 
-  .fullquote p {}
-  .inlineimg{ float:left;}
-  /*  .title{  width:500px;
-  max-width: 500px !important;}
-  .short{
-  width:500px;
-  max-width: 500px !important;}*/
+.inlineimg{ float:left;clear:left;margin-left:0px;margin-right:20px}
+
   }
 }

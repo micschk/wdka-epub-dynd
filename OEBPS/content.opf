@@ -44,19 +44,19 @@ Time-stamp: <2012-06-24-11:17:25-liza>
 
 		<item id="icon4" href="images/arrow_right.svg" media-type="image/svg+xml" />
 		<item id="icon5" href="images/arrow_left.svg" media-type="image/svg+xml" />
-
-		<item id="image3" href="images/DD_goud_klein.gif.jpg" media-type="image/gif" />
+<item id="image4" href="images/DD_goud_klein.gif" media-type="image/gif" />
+		<item id="image3" href="images/DD_goud_klein2.gif" media-type="image/gif" />
 		<item id="image1" href="images/turkey.jpg" media-type="image/jpeg" />
 		<item id="image2" href="images/honey.jpg" media-type="image/jpeg" />
 		<item id="cover-image" href="images/posterserie_dynamic.jpg" media-type="image/jpeg" />
 
 		<item id="full-image" href="images/background1.jpg" media-type="image/jpeg" />
 
-		<item id="videocreating010" href="http://192.168.3.100/WDKA/ePub-crosslab-content/videos/animatiefilm_creating_010_480x270.mp4" media-type="video/mp4"/>
-		<item id="videojeroen" href="http://192.168.3.100/WDKA/ePub-crosslab-content/videos/jeroenvanerp.m4v" media-type="video/mp4"/>
-		<item id="videoalper" href="http://192.168.3.100/WDKA/ePub-crosslab-content/videos/alpercugun.m4v" media-type="video/mp4"/>
-		<item id="videotom" href="http://192.168.3.100/WDKA/ePub-crosslab-content/videos/tomdebruyne.m4v" media-type="video/mp4"/>
-		<item id="videoirene" href="http://192.168.3.100/WDKA/ePub-crosslab-content/videos/irenevanpeer.m4v" media-type="video/mp4"/>
+		<item id="videocreating010" href="./videos/animatiefilm_creating_010_480x270.mp4" media-type="video/mp4"/>
+		<item id="videojeroen" href="./videos/jeroenvanerp.m4v" media-type="video/mp4"/>
+		<item id="videoalper" href="./videos/2.mp4" media-type="video/mp4"/>
+		<item id="videotom" href="./videos/tomdebruyne.m4v" media-type="video/mp4"/>
+		<item id="videoirene" href="./videos/irenevanpeer.m4v" media-type="video/mp4"/>
 
 	</manifest>
 
