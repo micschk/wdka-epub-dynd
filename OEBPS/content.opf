@@ -52,10 +52,11 @@ Time-stamp: <2012-06-24-11:17:25-liza>
 
 		<item id="full-image" href="images/background1.jpg" media-type="image/jpeg" />
 
-		<item id="videojeroen" href="videos/jeroenvanerp.mp4" media-type="video/mp4"/>
-		<item id="videoalper" href="videos/alpercugun .mp4" media-type="video/mp4"/>
-		<item id="videotom" href="videos/tomdebruyne.mp4" media-type="video/mp4"/>
-		<item id="videoirene" href="videos/irenevanpeer.mp4" media-type="video/mp4"/>
+		<item id="videocreating010" href="http://192.168.3.100/WDKA/ePub-crosslab-content/videos/animatiefilm_creating_010_480x270.mp4" media-type="video/mp4"/>
+		<item id="videojeroen" href="http://192.168.3.100/WDKA/ePub-crosslab-content/videos/jeroenvanerp.m4v" media-type="video/mp4"/>
+		<item id="videoalper" href="http://192.168.3.100/WDKA/ePub-crosslab-content/videos/alpercugun.m4v" media-type="video/mp4"/>
+		<item id="videotom" href="http://192.168.3.100/WDKA/ePub-crosslab-content/videos/tomdebruyne.m4v" media-type="video/mp4"/>
+		<item id="videoirene" href="http://192.168.3.100/WDKA/ePub-crosslab-content/videos/irenevanpeer.m4v" media-type="video/mp4"/>
 
 	</manifest>
 
