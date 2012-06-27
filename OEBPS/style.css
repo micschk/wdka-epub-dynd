@@ -97,7 +97,7 @@ a.nextsnip{-webkit-text-fill-color: rgb(170,161,99);display:block;background:url
 box-shadow: 0 0 5px #888;}
 
 .breadcrumbs{page-break-before:always;}
-.breadcrumbs span{font-weight:bold;padding:2px;background-color:black;color:white;-webkit-text-fill-color:rgb(255,255,255);}
+.breadcrumbs span{font-weight:bold;padding:2px;background-color:black;color:white;-webkit-text-fill-color:rgb(255,255,255);font-size:0.6em;}
 
 .bottomline{margin:0; color: rgb(170,161,99)!important;-webkit-text-fill-color:rgb(170,161,99);}
 .bioinfo{font-weight:bold;background-color:rgb(170,161,99); padding:5px;margin-top:-10px;}
