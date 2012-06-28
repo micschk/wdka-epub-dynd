@@ -19,18 +19,18 @@ Time-stamp: <2012-06-24-11:17:25-liza>
 	<manifest>
 		<item id="ncxtoc" media-type="application/x-dtbncx+xml" href="toc.ncx"/>
     
-		<item id="content0" href="intro.html" media-type="application/xhtml+xml" properties="remote-resources" />
-		<item id="content0a" href="epubformat.html" media-type="application/xhtml+xml" properties="remote-resources" />
-		<item id="content1" href="thema1.html" media-type="application/xhtml+xml" properties="remote-resources" />
-		<item id="content2" href="thema2.html" media-type="application/xhtml+xml" properties="remote-resources" />
-		<item id="content3" href="thema3.html" media-type="application/xhtml+xml" properties="remote-resources" />
-		<item id="content4" href="thema4.html" media-type="application/xhtml+xml" properties="remote-resources" />
-		<item id="content5" href="thema5.html" media-type="application/xhtml+xml" properties="remote-resources" />
-		<item id="content6" href="presentations.html" media-type="application/xhtml+xml" properties="remote-resources" />
-		<item id="content6a" href="presentations2.html" media-type="application/xhtml+xml" properties="remote-resources" />
-		<item id="content6b" href="presentations3.html" media-type="application/xhtml+xml" properties="remote-resources" />
-		<item id="content6c" href="presentations4.html" media-type="application/xhtml+xml" properties="remote-resources" />
-		<item id="content7" href="colofon.html" media-type="application/xhtml+xml" properties="remote-resources" />
+		<item id="content0" href="intro.html" media-type="application/xhtml+xml"/>
+		<item id="content0a" href="epubformat.html" media-type="application/xhtml+xml"/>
+		<item id="content1" href="thema1.html" media-type="application/xhtml+xml"/>
+		<item id="content2" href="thema2.html" media-type="application/xhtml+xml"/>
+		<item id="content3" href="thema3.html" media-type="application/xhtml+xml"/>
+		<item id="content4" href="thema4.html" media-type="application/xhtml+xml"/>
+		<item id="content5" href="thema5.html" media-type="application/xhtml+xml"/>
+		<item id="content6" href="presentations.html" media-type="application/xhtml+xml"/>
+		<item id="content6a" href="presentations2.html" media-type="application/xhtml+xml"/>
+		<item id="content6b" href="presentations3.html" media-type="application/xhtml+xml"/>
+		<item id="content6c" href="presentations4.html" media-type="application/xhtml+xml"/>
+		<item id="content7" href="colofon.html" media-type="application/xhtml+xml"/>
 
 		<item id="cover" href="cover.html" media-type="application/xhtml+xml"/>
 		<item id="css" href="style.css" media-type="text/css"/>
