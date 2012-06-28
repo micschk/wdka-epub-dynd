@@ -7,14 +7,10 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.0"
    width="12"
    height="12"
-   id="svg2"
-   inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="Icon_InfoPopup_Link.svg">
+   id="svg2">
   <metadata
      id="metadata9">
     <rdf:RDF>
@@ -27,58 +23,26 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1156"
-     inkscape:window-height="739"
-     id="namedview7"
-     showgrid="false"
-     inkscape:zoom="19.666667"
-     inkscape:cx="6.0000001"
-     inkscape:cy="13.891017"
-     inkscape:window-x="0"
-     inkscape:window-y="27"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="svg2" />
   <defs
      id="defs4" />
   <path
-     sodipodi:type="arc"
-     style="fill:#000000;fill-opacity:1;stroke:none"
+     d="m 11.084746,5.9237289 a 5.1610169,5.1610169 0 1 1 -10.322034,0 5.1610169,5.1610169 0 1 1 10.322034,0 z"
+     transform="matrix(1.0147783,0,0,1.0147783,-0.01127161,0.09042341)"
      id="path3007"
-     sodipodi:cx="5.9237289"
-     sodipodi:cy="5.9237289"
-     sodipodi:rx="5.1610169"
-     sodipodi:ry="5.1610169"
-     d="m 11.084746,5.9237289 a 5.1610169,5.1610169 0 1 1 -10.322034,0 5.1610169,5.1610169 0 1 1 10.322034,0 z"
-     transform="matrix(1.0147783,0,0,1.0147783,-0.01127161,0.09042341)" />
+     style="fill:#000000;fill-opacity:1;stroke:none" />
   <path
-     transform="matrix(0.80788175,0,0,0.80788175,1.2143274,1.3160225)"
      d="m 11.084746,5.9237289 a 5.1610169,5.1610169 0 1 1 -10.322034,0 5.1610169,5.1610169 0 1 1 10.322034,0 z"
-     sodipodi:ry="5.1610169"
-     sodipodi:rx="5.1610169"
-     sodipodi:cy="5.9237289"
-     sodipodi:cx="5.9237289"
+     transform="matrix(0.80788175,0,0,0.80788175,1.2143274,1.3160225)"
      id="path3009"
-     style="fill:#ffffff;fill-opacity:1;stroke:none"
-     sodipodi:type="arc" />
+     style="fill:#ffffff;fill-opacity:1;stroke:none" />
   <text
-     xml:space="preserve"
-     style="font-size:37.23905563px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
      x="4.2676549"
      y="9.3988075"
      id="text3003"
-     sodipodi:linespacing="125%"><tspan
-       sodipodi:role="line"
-       id="tspan3005"
+     xml:space="preserve"
+     style="font-size:37.23905563px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><tspan
        x="4.2676549"
        y="9.3988075"
+       id="tspan3005"
        style="font-size:9.30976391px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif Bold">i</tspan></text>
 </svg>

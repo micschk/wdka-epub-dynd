@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<package xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" unique-identifier="bookid">
-<!-- 
-Time-stamp: <2012-06-24-11:17:25-liza>
--->
+<package xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" unique-identifier="wdka-epub-v1">
 	<metadata>
-		<dc:identifier id="bookid">urn:uuid:4c191974-c491-4ad0-aa53-62ec5fed9feb</dc:identifier>
-		<dc:title>Epub demo - dinsdag7</dc:title> 
+		<dc:identifier id="bookid">urn:uuid:wdka-epub-dynd-v1</dc:identifier>
+		<dc:title>Crosslab Event 'Dynamic Design'</dc:title> 
 		<dc:rights>Creative Commons Attribution-Noncommercial-Share Alike 3.0</dc:rights>
-		<dc:publisher>Threepress Consulting Inc.</dc:publisher>  
-		<dc:date >2010-06-22</dc:date>
-		<dc:description >EPUB book usidsang JavaScript to enhance textual presentation</dc:description>
-		<dc:creator xmlns:opf="http://www.idpf.org/2007/opf" opf:file-as="Klok, Timo">Timo Klok</dc:creator>
-		<dc:contributor xmlns:opf="http://www.idpf.org/2007/opf" opf:file-as="Klok, Timo">Timo Klok</dc:contributor>
+		<dc:publisher>Kenniscentrum 010 / Crosslab Willem de Kooning academie</dc:publisher>  
+		<dc:date >2012-06-28</dc:date>
+		<dc:description >EPUBlication of Dynamic Design Crosslab event</dc:description>
+		<dc:creator xmlns:opf="http://www.idpf.org/2007/opf" opf:file-as="WDKA">Crosslab WDKA</dc:creator>
+		<dc:contributor xmlns:opf="http://www.idpf.org/2007/opf" opf:file-as="WDKA">Crosslab WDKA</dc:contributor>
 		<dc:language>en</dc:language>
 		<meta name="cover" content="cover-image" />
 	</metadata>  
