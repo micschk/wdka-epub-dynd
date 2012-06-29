@@ -90,15 +90,15 @@ a:visited {
 a.nextsnip{-webkit-text-fill-color: rgb(170,161,99);display:block;background:url('images/arrow_right.svg');background-repeat: no-repeat;background-size: 20px 20px;padding-left:10%;height:50px;}
 a.watch{-webkit-text-fill-color: rgb(170,161,99);display:block;background:url('images/arrow_down.svg');background-repeat: no-repeat;background-size: 20px 20px;padding-left:10%;padding-bottom:20px; border-bottom: 1px dotted black;}
 a {
-	background: url('images/Icon_Internal_Link.svg') center right no-repeat;
+	background: url('images/Icon_Internal_Link.png') center right no-repeat;
 	padding-right: 13px;
 }
 a[href^="#note"] {
-	background: url('images/Icon_InfoPopup_Link.svg') center right no-repeat;
+	background: url('images/Icon_InfoPopup_Link.png') center right no-repeat;
 	padding-right: 13px;
 }
 a[href^="http://"] {
-	background: url('images/Icon_External_Link.svg') center right no-repeat;
+	background: url('images/Icon_External_Link.png') center right no-repeat;
 	padding-right: 13px;
 }
 /*
