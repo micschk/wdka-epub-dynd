@@ -93,7 +93,7 @@ a {
 	background: url('images/Icon_Internal_Link.png') center right no-repeat;
 	padding-right: 13px;
 }
-a[href^="#note"] {
+a[href^="#"] {
 	background: url('images/Icon_InfoPopup_Link.png') center right no-repeat;
 	padding-right: 13px;
 }
