@@ -38,12 +38,12 @@
 		<item id="icon1" href="images/play.svg" media-type="image/svg+xml" />
 		<item id="icon2" href="images/pause.svg" media-type="image/svg+xml" />
 		<item id="icon3" href="images/reload.svg" media-type="image/svg+xml" />
-<item id="icon7" href="images/user.svg" media-type="image/svg+xml" />
+		<item id="icon7" href="images/user.svg" media-type="image/svg+xml" />
 
-<item id="icon6" href="images/arrow_down.svg" media-type="image/svg+xml" />
+		<item id="icon6" href="images/arrow_down.svg" media-type="image/svg+xml" />
 		<item id="icon4" href="images/arrow_right.svg" media-type="image/svg+xml" />
 		<item id="icon5" href="images/arrow_left.svg" media-type="image/svg+xml" />
-<item id="image4" href="images/DD_goud_klein.gif" media-type="image/gif" />
+		<item id="image4" href="images/DD_goud_klein.gif" media-type="image/gif" />
 		<item id="image3" href="images/DD_goud_klein2.gif" media-type="image/gif" />
 		<item id="cover-image" href="images/posterserie_dynamic.jpg" media-type="image/jpeg" />
 
@@ -64,8 +64,8 @@
 		<item id="videoalper" href="./videos/alpercugun.m4v" media-type="video/mp4"/>
 		<item id="videotom" href="./videos/tomdebruyne.m4v" media-type="video/mp4"/>
 		<item id="videoirene" href="./videos/irenevanpeer.m4v" media-type="video/mp4"/>
-<item id="videojasper" href="./videos/introjasperschelling.m4v" media-type="video/mp4"/>
-<item id="videopigs" href="./videos/pigchase_betterquality.m4v" media-type="video/mp4"/>
+		<item id="videojasper" href="./videos/introjasperschelling.m4v" media-type="video/mp4"/>
+		<item id="videopigs" href="./videos/pigchase_betterquality.m4v" media-type="video/mp4"/>
 
 	</manifest>
 
