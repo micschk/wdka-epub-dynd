@@ -34,14 +34,14 @@
      
      <ncx:navPoint id="id4" playOrder="4">
       <ncx:navLabel>
-        <ncx:text>The Designer</ncx:text>
+        <ncx:text>Storytelling</ncx:text>
       </ncx:navLabel>
       <ncx:content src="thema2.html"/>
     </ncx:navPoint>
     
     <ncx:navPoint id="id5" playOrder="5">
       <ncx:navLabel>
-        <ncx:text>Dynamic Data</ncx:text>
+        <ncx:text>New Aesthetics</ncx:text>
       </ncx:navLabel>
       <ncx:content src="thema3.html"/>
     </ncx:navPoint>  
