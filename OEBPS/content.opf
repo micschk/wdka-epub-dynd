@@ -49,13 +49,23 @@
 
 		<item id="full-image" href="images/background1.jpg" media-type="image/jpeg" />
 
-		<item id="videocreating010" href="./videos/animatiefilm_creating_010_480x270.mp4" media-type="video/mp4"/>
+		<item id="full-image1" href="images/introheader.jpg" media-type="image/jpeg" />
+		<item id="full-image2" href="images/epubheader.jpg" media-type="image/jpeg" />
+		<item id="full-image3" href="images/thema1header.jpg" media-type="image/jpeg" />
+		<item id="full-image4" href="images/thema2header.jpg" media-type="image/jpeg" />
+		<item id="full-image5" href="images/thema3header.jpg" media-type="image/jpeg" />
+		<item id="full-image6" href="images/thema4header.jpg" media-type="image/jpeg" />
+		<item id="full-image7" href="images/thema5header.jpg" media-type="image/jpeg" />
+		<item id="full-image8" href="images/presentationsheader.jpg" media-type="image/jpeg" />
+		<item id="full-image8" href="images/colofonheader.jpg" media-type="image/jpeg" />
+
+		<item id="videocreating010" href="./videos/010.m4v" media-type="video/mp4"/>
 		<item id="videojeroen" href="./videos/jeroenvanerp.m4v" media-type="video/mp4"/>
-		<item id="videoalper" href="./videos/2.mp4" media-type="video/mp4"/>
+		<item id="videoalper" href="./videos/alpercugun.m4v" media-type="video/mp4"/>
 		<item id="videotom" href="./videos/tomdebruyne.m4v" media-type="video/mp4"/>
 		<item id="videoirene" href="./videos/irenevanpeer.m4v" media-type="video/mp4"/>
 <item id="videojasper" href="./videos/introjasperschelling.m4v" media-type="video/mp4"/>
-<item id="videopigs" href="./videos/pigchase_betterquality.mp4" media-type="video/mp4"/>
+<item id="videopigs" href="./videos/pigchase_betterquality.m4v" media-type="video/mp4"/>
 
 	</manifest>
 
@@ -79,8 +89,8 @@
 		<reference type="text" title="Intro" href="intro.html"/>
 		<reference type="text" title="Epub" href="epubformat.html"/> 
 		<reference type="text" title="Behaviour" href="thema1.html"/> 
-		<reference type="text" title="The Designer" href="thema2.html"/>
-		<reference type="text" title="Dynamic Data" href="thema3.html"/>
+		<reference type="text" title="Storytelling" href="thema2.html"/>
+		<reference type="text" title="New Aesthetics" href="thema3.html"/>
 		<reference type="text" title="Experience" href="thema4.html"/>
 		<reference type="text" title="Process" href="thema5.html"/>
 		<reference type="text" title="Presentations" href="presentations.html"/>
