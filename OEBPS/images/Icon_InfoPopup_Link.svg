@@ -14,7 +14,10 @@
    height="12"
    id="svg2"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="Icon_InfoPopup_Link.svg">
+   sodipodi:docname="Icon_InfoPopup_Link.svg"
+   inkscape:export-filename="/home/mic/Sites/wdka/ePub-crosslab/wdka-epub-dynd/OEBPS/images/Icon_InfoPopup_Link.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -29,8 +32,8 @@
      id="namedview2992"
      showgrid="false"
      inkscape:zoom="19.666667"
-     inkscape:cx="6"
-     inkscape:cy="6"
+     inkscape:cx="6.0000001"
+     inkscape:cy="6.0000001"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="0"
@@ -43,7 +46,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
